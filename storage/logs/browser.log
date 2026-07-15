@@ -1,1 +1,50 @@
 [2026-04-14 05:18:09] local.DEBUG: [vite] server connection lost. Polling for restart... {"url":"http://127.0.0.1:8000/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36","timestamp":"2026-04-14T05:18:08.463Z"} 
+[2026-04-14 07:33:40] local.ERROR: [vite] failed to connect to websocket.
+your current setup:
+  (browser) [::1]:5173/ <--[HTTP]--> localhost:5173/ (server)
+  (browser) [::1]:5173/ <--[WebSocket (failing)]--> localhost:5173/ (server)
+Check out your Vite / network configuration and https://vite.dev/config/server-options.html#server-hmr . {"url":"http://127.0.0.1:8000/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36","timestamp":"2026-04-14T07:33:39.613Z"} 
+[2026-06-24 08:20:47] local.ERROR: Uncaught Error: Missing required parameters: sitekey https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js 70 329 Error Missing required parameters: sitekey Error: Missing required parameters: sitekey
+    at QF.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:70:335)
+    at new QF (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:1207:330)
+    at to.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:631:224)
+    at new to (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:1051:160)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:378:310)
+    at https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:685:414
+    at Array.forEach (<anonymous>)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:685:390)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:395:406)
+    at xl.window.<computed>.<computed>.xl.window.<computed>.<computed> [as gor] (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:770:299) {"url":"http://localhost:8000/login","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36","timestamp":"2026-06-24T08:20:46.435Z"} 
+[2026-06-24 08:20:47] local.ERROR: Uncaught Error: Missing required parameters: sitekey https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js 70 329 Error Missing required parameters: sitekey Error: Missing required parameters: sitekey
+    at QF.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:70:335)
+    at new QF (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:1207:330)
+    at to.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:631:224)
+    at new to (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:1051:160)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:378:310)
+    at https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:685:414
+    at Array.forEach (<anonymous>)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:685:390)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:395:406)
+    at xl.window.<computed>.<computed>.xl.window.<computed>.<computed> [as gor] (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__id.js:770:299) {"url":"http://localhost:8000/login","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36","timestamp":"2026-06-24T08:20:46.436Z"} 
+[2026-06-24 08:25:47] local.ERROR: Uncaught Error: Missing required parameters: sitekey https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js 70 329 Error Missing required parameters: sitekey Error: Missing required parameters: sitekey
+    at QF.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:70:335)
+    at new QF (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:1205:330)
+    at to.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:630:114)
+    at new to (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:1049:160)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:377:310)
+    at https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:683:414
+    at Array.forEach (<anonymous>)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:683:390)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:394:406)
+    at xl.window.<computed>.<computed>.xl.window.<computed>.<computed> [as gor] (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:768:250) {"url":"http://127.0.0.1:8000/login","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36","timestamp":"2026-06-24T08:25:47.519Z"} 
+[2026-06-24 08:25:47] local.ERROR: Uncaught Error: Missing required parameters: sitekey https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js 70 329 Error Missing required parameters: sitekey Error: Missing required parameters: sitekey
+    at QF.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:70:335)
+    at new QF (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:1205:330)
+    at to.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:630:114)
+    at new to (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:1049:160)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:377:310)
+    at https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:683:414
+    at Array.forEach (<anonymous>)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:683:390)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:394:406)
+    at xl.window.<computed>.<computed>.xl.window.<computed>.<computed> [as gor] (https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js:768:250) {"url":"http://127.0.0.1:8000/login","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36","timestamp":"2026-06-24T08:25:47.520Z"} 

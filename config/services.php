@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'recaptcha' => [
+        'site_key' => '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI',
+        'secret_key' => '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojE4WifJWe',
+    ],
+
 ];
